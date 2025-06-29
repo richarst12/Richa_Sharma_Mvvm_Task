@@ -1,3 +1,16 @@
 <resources>
-    <string name="app_name">Richa_Sharma_Task_Mvvm</string>
+    <string name="app_name">Richa_Sharma_Mvvm_Demo</string>
+    <string name="str_qty">Qty:</string>
+    <string name="str_ltp">LTP: </string>
+    <string name="currency_value">₹%1$.2f</string>
+    <string name="str_pnl">P&amp;L:</string>
+    <string name="current_value_format">Current Value: ₹%1$.2f</string>
+    <string name="total_investment_format">Total Investment: ₹%1$.2f</string>
+    <string name="total_pnl_format">Total P&amp;L: ₹%1$.2f</string>
+    <string name="todays_pnl_format">Today\'s P&amp;L: ₹%1$.2f</string>
+    <string name="str_portfolio_summary">Portfolio Summary</string>
+    <string name="str_current_value">Current Value:</string>
+    <string name="str_total_investment">Total Investment:</string>
+    <string name="str_total_p_l"><![CDATA[Total P&L:]]></string>
+    <string name="str_today_p_l"><![CDATA[Today\'s P&L:]]></string>
 </resources>

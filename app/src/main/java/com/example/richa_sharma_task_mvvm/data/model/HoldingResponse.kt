@@ -12,6 +12,6 @@ data class HoldingData(
     val userHolding: List<Holding>
 )
 
-data class HoldingResponseDataOnly(
+data class HoldingResponseData(
     val holdings: List<Holding>
 )
