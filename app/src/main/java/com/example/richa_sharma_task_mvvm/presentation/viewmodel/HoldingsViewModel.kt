@@ -41,16 +41,12 @@ class HoldingsViewModel @Inject constructor(
                     holdings = holdings,
                     summary = summary
                 )
-
-                Log.d(TAG, "Successfully fetched holdings: $holdings")
-
             }.onFailure { ex ->
                 if (ex is IOException) {
                     _uiState.value = HoldingsUiState.Error("No Internet Connection")
                 } else {
                     _uiState.value = HoldingsUiState.Error(ex.message ?: "Unknown error")
                 }
-                Log.e(TAG, "Failed to fetch holdings: ${ex.localizedMessage}", ex)
             }
         }
     }
